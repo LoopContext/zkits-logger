@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/edoger/zkits-logger/internal"
+	"github.com/loopcontext/zkits-logger/internal"
 )
 
 // Logger interface defines a standard logger.

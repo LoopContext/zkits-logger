@@ -22,15 +22,15 @@ import (
 
 // KnownStack defines the stack information when calling the GetStack method.
 // We need to check this information from the call stack, because they are always fixed.
-const KnownStack = "github.com/edoger/zkits-logger/internal.GetStack()"
+const KnownStack = "github.com/loopcontext/zkits-logger/internal.GetStack()"
 
 // KnownStackPrefix defines the stack information prefix when calling the GetStack method.
 // They look like this (excluding local path information):
-//   - github.com/edoger/zkits-logger.(*log).record(...)
-//   - github.com/edoger/zkits-logger.(*log).log(...)
-//   - github.com/edoger/zkits-logger.(*log).METHOD(...)
+//   - github.com/loopcontext/zkits-logger.(*log).record(...)
+//   - github.com/loopcontext/zkits-logger.(*log).log(...)
+//   - github.com/loopcontext/zkits-logger.(*log).METHOD(...)
 // We need to check this information from the call stack, because they are always fixed.
-const KnownStackPrefix = "github.com/edoger/zkits-logger.(*log)."
+const KnownStackPrefix = "github.com/loopcontext/zkits-logger.(*log)."
 
 // GetStack returns the current coroutine call stack information.
 // This method call is very expensive, we format the stack information returned by the system

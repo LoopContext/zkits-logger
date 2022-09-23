@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edoger/zkits-logger/internal"
+	"github.com/loopcontext/zkits-logger/internal"
 )
 
 func TestNew(t *testing.T) {

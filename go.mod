@@ -1,3 +1,3 @@
-module github.com/edoger/zkits-logger
+module github.com/loopcontext/zkits-logger
 
 go 1.13

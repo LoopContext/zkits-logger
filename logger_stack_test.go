@@ -33,7 +33,7 @@ func TestLog_WithStack(t *testing.T) {
 	o.WithStack().WithStack().Info("stack")
 
 	// goroutine 4 [running]:
-	// github.com/edoger/zkits-logger.TestLog_WithStack(0xc0001421a0) At ... /logger_stack_test.go:33 +0x317
+	// github.com/loopcontext/zkits-logger.TestLog_WithStack(0xc0001421a0) At ... /logger_stack_test.go:33 +0x317
 	// testing.tRunner(0xc0001421a0, 0x116cd98) At ... /src/testing/testing.go:1439 +0x102
 	// created by testing.(*T).Run At ... /src/testing/testing.go:1486 +0x35f
 	if s := w.String(); strings.TrimSpace(s) == "" {

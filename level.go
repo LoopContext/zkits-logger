@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/edoger/zkits-logger/internal"
+	"github.com/loopcontext/zkits-logger/internal"
 )
 
 const (

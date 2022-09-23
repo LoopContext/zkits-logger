@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/edoger/zkits-logger/internal"
+	"github.com/loopcontext/zkits-logger/internal"
 )
 
 // The default json formatter.

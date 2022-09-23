@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/edoger/zkits-logger/internal"
+	"github.com/loopcontext/zkits-logger/internal"
 )
 
 // This regular expression is used to analyze placeholders in text formatter format.

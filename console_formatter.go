@@ -17,7 +17,7 @@ package logger
 import (
 	"bytes"
 
-	"github.com/edoger/zkits-logger/internal"
+	"github.com/loopcontext/zkits-logger/internal"
 )
 
 // NewConsoleFormatter creates and returns an instance of the log console formatter.
